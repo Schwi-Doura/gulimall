@@ -36,17 +36,17 @@ public class GulimallProductApplicationTests {
         System.out.println("success");
     }
 
-    @Test
-    public void demo2() {
-        String filePath= "F:\\project\\谷粒商城\\Guli Mall(包含代码、课件、sql)\\Guli Mall\\文档\\开发阶段文档md\\images\\1587609877028.png";
-        InputStream inputStream = null;
-        try {
-            inputStream = new FileInputStream(filePath);
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
-        }
-        ossClient.putObject("gulimall-iota","exampledir/1587609877028.png",inputStream);
-    }
+//    @Test
+//    public void demo2() {
+//        String filePath= "F:\\project\\谷粒商城\\Guli Mall(包含代码、课件、sql)\\Guli Mall\\文档\\开发阶段文档md\\images\\1587609877028.png";
+//        InputStream inputStream = null;
+//        try {
+//            inputStream = new FileInputStream(filePath);
+//        } catch (FileNotFoundException e) {
+//            throw new RuntimeException(e);
+//        }
+//        ossClient.putObject("gulimall-iota","exampledir/1587609877028.png",inputStream);
+//    }
 
 
 
